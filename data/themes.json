@@ -1,4 +1,40 @@
 {
+    "thefonix-tango-twist": {
+        "name": "Tango Twist",
+        "author": "TheFonix",
+        "description": "A Touch Of Orange",
+        "link": "https://github.com/TheFonix/Pterodactyl-Themes/tree/master/MasterThemes/TangoTwist",
+        "image": "https://raw.githubusercontent.com/TheFonix/Pterodactyl-Themes/master/MasterThemes/TangoTwist/ss/TangoTwist.png",
+        "panel-versions": ["0.7.13"]
+    },
+    
+    "thefonix-blue-brick": {
+        "name": "Blue Brick",
+        "author": "TheFonix",
+        "description": "A Sort Of Blue",
+        "link": "https://github.com/TheFonix/Pterodactyl-Themes/tree/master/MasterThemes/BlueBrick",
+        "image": "https://raw.githubusercontent.com/TheFonix/Pterodactyl-Themes/master/MasterThemes/BlueBrick/ss/BlueBrick.png",
+        "panel-versions": ["0.7.13"]
+    },
+    
+    "thefonix-minecraft-madness": {
+        "name": "Minecraft Madness",
+        "author": "TheFonix",
+        "description": "Everybody Loves A Little Minecraft",
+        "link": "https://github.com/TheFonix/Pterodactyl-Themes/tree/master/MasterThemes/MinecraftMadness",
+        "image": "https://raw.githubusercontent.com/TheFonix/Pterodactyl-Themes/master/MasterThemes/MinecraftMadness/ss/MinecraftMadness.png",
+        "panel-versions": ["0.7.13"]
+    },
+    
+    "thefonix-lime-stitch": {
+        "name": "Lime Stitch",
+        "author": "TheFonix",
+        "description": "Lime, Hold the Lemon",
+        "link": "https://github.com/TheFonix/Pterodactyl-Themes/tree/master/MasterThemes/LimeStitch",
+        "image": "https://raw.githubusercontent.com/TheFonix/Pterodactyl-Themes/master/MasterThemes/LimeStitch/ss/LimeStitch.png",
+        "panel-versions": ["0.7.13"]
+    },
+    
     "thefonix-red-ape": {
         "name": "Red Ape",
         "author": "TheFonix",
@@ -8,21 +44,21 @@
         "panel-versions": ["0.7.13"]
     },
 
-    "thefonix-tango-twist": {
-        "name": "Tango Twist",
-        "author": "TheFonix",
-        "description": "A Touch Of Orange",
-        "link": "https://github.com/TheFonix/Pterodactyl-Themes/tree/master/MasterThemes/TangoTwist",
-        "image": "https://raw.githubusercontent.com/TheFonix/Pterodactyl-Themes/master/MasterThemes/TangoTwist/ss/TangoTwist.png",
-        "panel-versions": ["0.7.13"]
-    },
-
     "thefonix-blackend-space": {
         "name": "BlackEnd Space",
         "author": "TheFonix",
-        "description": "The Black And The End Of Space For CodersLight Hosting ",
+        "description": "The Black And The End Of Space For CodersLight Hosting",
         "link": "https://github.com/TheFonix/Pterodactyl-Themes/tree/master/MasterThemes/BlackEndSpace",
         "image": "https://raw.githubusercontent.com/TheFonix/Pterodactyl-Themes/master/MasterThemes/BlackEndSpace/SS/BlackendSpace.png",
+        "panel-versions": ["0.7.13"]
+    },
+    
+    "thefonix-nothing-but-graphite": {
+        "name": "Nothing But Graphite",
+        "author": "TheFonix",
+        "description": "The Black And The White Nothing More",
+        "link": "https://github.com/TheFonix/Pterodactyl-Themes/tree/master/MasterThemes/NothingButGraphite",
+        "image": "https://raw.githubusercontent.com/TheFonix/Pterodactyl-Themes/master/MasterThemes/NothingButGraphite/SS/NothingButGraphite.png",
         "panel-versions": ["0.7.13"]
     }
 }
