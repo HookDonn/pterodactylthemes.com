@@ -5,7 +5,23 @@
         "description": "A Touch Of Orange",
         "link": "https://github.com/TheFonix/Pterodactyl-Themes/tree/master/MasterThemes/TangoTwist",
         "image": "https://raw.githubusercontent.com/TheFonix/Pterodactyl-Themes/master/MasterThemes/TangoTwist/ss/TangoTwist.png",
-        "panel-versions": ["0.7.13"]
+        "panel-versions": ["0.7.13"],
+        "page": {
+            "use": true,
+            "carousel": [
+                {
+                    "image": "https://raw.githubusercontent.com/TheFonix/Pterodactyl-Themes/master/MasterThemes/TangoTwist/ss/TangoTwist.png",
+                    "alignText": "left",
+                    "title": "Panel",
+                    "text": "",
+                    "link": {
+                        "url": "https://github.com/TheFonix/Pterodactyl-Themes/tree/master/MasterThemes/TangoTwist",
+                        "text": "Learn More"
+                    }
+                }
+            ],
+            "content": null
+        }
     },
     
     "thefonix-blue-brick": {
