@@ -30,7 +30,23 @@
         "description": "A Sort Of Blue",
         "link": "https://github.com/TheFonix/Pterodactyl-Themes/tree/master/MasterThemes/BlueBrick",
         "image": "https://raw.githubusercontent.com/TheFonix/Pterodactyl-Themes/master/MasterThemes/BlueBrick/ss/BlueBrick.png",
-        "panel-versions": ["0.7.13"]
+        "panel-versions": ["0.7.13"],
+        "page": {
+            "use": false,
+            "carousel": [
+                {
+                    "image": "https://raw.githubusercontent.com/TheFonix/Pterodactyl-Themes/master/MasterThemes/TangoTwist/ss/TangoTwist.png",
+                    "alignText": "left",
+                    "title": "Panel",
+                    "text": "",
+                    "link": {
+                        "url": "https://github.com/TheFonix/Pterodactyl-Themes/tree/master/MasterThemes/TangoTwist",
+                        "text": "Learn More"
+                    }
+                }
+            ],
+            "content": "# Header\n##### Sub Header"
+        }
     },
     
     "thefonix-minecraft-madness": {
@@ -39,7 +55,23 @@
         "description": "Everybody Loves A Little Minecraft",
         "link": "https://github.com/TheFonix/Pterodactyl-Themes/tree/master/MasterThemes/MinecraftMadness",
         "image": "https://raw.githubusercontent.com/TheFonix/Pterodactyl-Themes/master/MasterThemes/MinecraftMadness/ss/MinecraftMadness.png",
-        "panel-versions": ["0.7.13"]
+        "panel-versions": ["0.7.13"],
+        "page": {
+            "use": false,
+            "carousel": [
+                {
+                    "image": "https://raw.githubusercontent.com/TheFonix/Pterodactyl-Themes/master/MasterThemes/TangoTwist/ss/TangoTwist.png",
+                    "alignText": "left",
+                    "title": "Panel",
+                    "text": "",
+                    "link": {
+                        "url": "https://github.com/TheFonix/Pterodactyl-Themes/tree/master/MasterThemes/TangoTwist",
+                        "text": "Learn More"
+                    }
+                }
+            ],
+            "content": "# Header\n##### Sub Header"
+        }
     },
     
     "thefonix-lime-stitch": {
@@ -48,7 +80,23 @@
         "description": "Lime, Hold the Lemon",
         "link": "https://github.com/TheFonix/Pterodactyl-Themes/tree/master/MasterThemes/LimeStitch",
         "image": "https://raw.githubusercontent.com/TheFonix/Pterodactyl-Themes/master/MasterThemes/LimeStitch/ss/LimeStitch.png",
-        "panel-versions": ["0.7.13"]
+        "panel-versions": ["0.7.13"],
+        "page": {
+            "use": false,
+            "carousel": [
+                {
+                    "image": "https://raw.githubusercontent.com/TheFonix/Pterodactyl-Themes/master/MasterThemes/TangoTwist/ss/TangoTwist.png",
+                    "alignText": "left",
+                    "title": "Panel",
+                    "text": "",
+                    "link": {
+                        "url": "https://github.com/TheFonix/Pterodactyl-Themes/tree/master/MasterThemes/TangoTwist",
+                        "text": "Learn More"
+                    }
+                }
+            ],
+            "content": "# Header\n##### Sub Header"
+        }
     },
     
     "thefonix-red-ape": {
@@ -57,7 +105,23 @@
         "description": "A Red'er Way Of Life",
         "link": "https://github.com/TheFonix/Pterodactyl-Themes/tree/master/MasterThemes/RedApe",
         "image": "https://raw.githubusercontent.com/TheFonix/Pterodactyl-Themes/master/MasterThemes/RedApe/ss/Red_Ape.png",
-        "panel-versions": ["0.7.13"]
+        "panel-versions": ["0.7.13"],
+        "page": {
+            "use": false,
+            "carousel": [
+                {
+                    "image": "https://raw.githubusercontent.com/TheFonix/Pterodactyl-Themes/master/MasterThemes/TangoTwist/ss/TangoTwist.png",
+                    "alignText": "left",
+                    "title": "Panel",
+                    "text": "",
+                    "link": {
+                        "url": "https://github.com/TheFonix/Pterodactyl-Themes/tree/master/MasterThemes/TangoTwist",
+                        "text": "Learn More"
+                    }
+                }
+            ],
+            "content": "# Header\n##### Sub Header"
+        }
     },
 
     "thefonix-blackend-space": {
@@ -66,7 +130,23 @@
         "description": "The Black And The End Of Space For CodersLight Hosting",
         "link": "https://github.com/TheFonix/Pterodactyl-Themes/tree/master/MasterThemes/BlackEndSpace",
         "image": "https://raw.githubusercontent.com/TheFonix/Pterodactyl-Themes/master/MasterThemes/BlackEndSpace/SS/BlackendSpace.png",
-        "panel-versions": ["0.7.13"]
+        "panel-versions": ["0.7.13"],
+        "page": {
+            "use": false,
+            "carousel": [
+                {
+                    "image": "https://raw.githubusercontent.com/TheFonix/Pterodactyl-Themes/master/MasterThemes/TangoTwist/ss/TangoTwist.png",
+                    "alignText": "left",
+                    "title": "Panel",
+                    "text": "",
+                    "link": {
+                        "url": "https://github.com/TheFonix/Pterodactyl-Themes/tree/master/MasterThemes/TangoTwist",
+                        "text": "Learn More"
+                    }
+                }
+            ],
+            "content": "# Header\n##### Sub Header"
+        }
     },
     
     "thefonix-nothing-but-graphite": {
@@ -75,7 +155,23 @@
         "description": "The Black And The White Nothing More",
         "link": "https://github.com/TheFonix/Pterodactyl-Themes/tree/master/MasterThemes/NothingButGraphite",
         "image": "https://raw.githubusercontent.com/TheFonix/Pterodactyl-Themes/master/MasterThemes/NothingButGraphite/SS/NothingButGraphite.png",
-        "panel-versions": ["0.7.13"]
+        "panel-versions": ["0.7.13"],
+        "page": {
+            "use": false,
+            "carousel": [
+                {
+                    "image": "https://raw.githubusercontent.com/TheFonix/Pterodactyl-Themes/master/MasterThemes/TangoTwist/ss/TangoTwist.png",
+                    "alignText": "left",
+                    "title": "Panel",
+                    "text": "",
+                    "link": {
+                        "url": "https://github.com/TheFonix/Pterodactyl-Themes/tree/master/MasterThemes/TangoTwist",
+                        "text": "Learn More"
+                    }
+                }
+            ],
+            "content": "# Header\n##### Sub Header"
+        }
     },
     
     "havila-stream-ui": {
@@ -85,7 +181,23 @@
         "link": "https://www.mc-market.org/resources/9768/",
         "image": "https://i.imgur.com/LZGO9mY.png",
         "panel-versions": ["0.7.13"],
-        "price": "10.00 GBP"
+        "price": "10.00 GBP",
+        "page": {
+            "use": false,
+            "carousel": [
+                {
+                    "image": "https://raw.githubusercontent.com/TheFonix/Pterodactyl-Themes/master/MasterThemes/TangoTwist/ss/TangoTwist.png",
+                    "alignText": "left",
+                    "title": "Panel",
+                    "text": "",
+                    "link": {
+                        "url": "https://github.com/TheFonix/Pterodactyl-Themes/tree/master/MasterThemes/TangoTwist",
+                        "text": "Learn More"
+                    }
+                }
+            ],
+            "content": "# Header\n##### Sub Header"
+        }
     },
     
     "havila-byte-dark-and-light-theme-included": {
@@ -95,7 +207,23 @@
         "link": "https://www.mc-market.org/resources/9762/",
         "image": "https://i.imgur.com/IBNcA61.png",
         "panel-versions": ["0.7.13"],
-        "price": "8.00 GBP"
+        "price": "8.00 GBP",
+        "page": {
+            "use": false,
+            "carousel": [
+                {
+                    "image": "https://raw.githubusercontent.com/TheFonix/Pterodactyl-Themes/master/MasterThemes/TangoTwist/ss/TangoTwist.png",
+                    "alignText": "left",
+                    "title": "Panel",
+                    "text": "",
+                    "link": {
+                        "url": "https://github.com/TheFonix/Pterodactyl-Themes/tree/master/MasterThemes/TangoTwist",
+                        "text": "Learn More"
+                    }
+                }
+            ],
+            "content": "# Header\n##### Sub Header"
+        }
     },
     
     "donut-dark-pterodactyl-theme": {
@@ -105,7 +233,23 @@
         "link": "https://www.mc-market.org/resources/8394/",
         "image": "https://i.imgur.com/EXesN1K.jpg",
         "panel-versions": ["0.7.13"],
-        "price": "5.30 GBP"
+        "price": "5.30 GBP",
+        "page": {
+            "use": false,
+            "carousel": [
+                {
+                    "image": "https://raw.githubusercontent.com/TheFonix/Pterodactyl-Themes/master/MasterThemes/TangoTwist/ss/TangoTwist.png",
+                    "alignText": "left",
+                    "title": "Panel",
+                    "text": "",
+                    "link": {
+                        "url": "https://github.com/TheFonix/Pterodactyl-Themes/tree/master/MasterThemes/TangoTwist",
+                        "text": "Learn More"
+                    }
+                }
+            ],
+            "content": "# Header\n##### Sub Header"
+        }
     },
     
     "lunaversity-discord-theme": {
@@ -114,6 +258,22 @@
         "description": "Discord Theme.",
         "link": "https://github.com/Lunaversitay/pterodactyl-skins/tree/master/discord-theme",
         "image": "https://camo.githubusercontent.com/5f0a70c2f623be430572cd860730cd2d196c9838/68747470733a2f2f692e6176617364656d6f6e2e726f636b732f66697265666f785f323031382d30362d30385f32322d31372d33372e706e67",
-        "panel-versions": ["0.6.0"]
+        "panel-versions": ["0.6.0"],
+        "page": {
+            "use": false,
+            "carousel": [
+                {
+                    "image": "https://raw.githubusercontent.com/TheFonix/Pterodactyl-Themes/master/MasterThemes/TangoTwist/ss/TangoTwist.png",
+                    "alignText": "left",
+                    "title": "Panel",
+                    "text": "",
+                    "link": {
+                        "url": "https://github.com/TheFonix/Pterodactyl-Themes/tree/master/MasterThemes/TangoTwist",
+                        "text": "Learn More"
+                    }
+                }
+            ],
+            "content": "# Header\n##### Sub Header"
+        }
     }
 }
