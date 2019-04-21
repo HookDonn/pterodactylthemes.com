@@ -7,7 +7,7 @@
         "image": "https://raw.githubusercontent.com/TheFonix/Pterodactyl-Themes/master/MasterThemes/TangoTwist/ss/TangoTwist.png",
         "panel-versions": ["0.7.13"],
         "page": {
-            "use": true,
+            "use": false,
             "carousel": [
                 {
                     "image": "https://raw.githubusercontent.com/TheFonix/Pterodactyl-Themes/master/MasterThemes/TangoTwist/ss/TangoTwist.png",
@@ -20,7 +20,7 @@
                     }
                 }
             ],
-            "content": null
+            "content": "# Header\n##### Sub Header"
         }
     },
     

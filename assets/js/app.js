@@ -23,6 +23,9 @@ var Home = { template: `
                         <div class="card-body">
                             <p class="card-text">
                                 <h3 class="jumbotron-heading">{{ theme.name }} <small class="text-muted">By {{ theme.author }}</small></h3>
+                                <p>
+                                    {{ theme.description }}
+                                </p>
                             </p>
                         </div>
                         <div class="d-flex ml-3 mb-3 justify-content-between align-items-center">
@@ -71,6 +74,8 @@ var Theme = { template: `
             <span class="sr-only">Next</span>
         </a>
     </div>
+
+    <vue-markdown class="container-fluid bg-light pb-5 px-5 pt-4" v-if="$parent.themes[$route.params.theme].page.content != null">{{ $parent.themes[$route.params.theme].page.content }}</vue-markdown>
 </div>
 ` };
 
