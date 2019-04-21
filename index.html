@@ -68,7 +68,7 @@
     <div id="app">
         <header>
             <div class="collapse bg-dark" id="navbarHeader">
-                <div class="container">
+                <div class="container-fluid">
                     <div class="row">
                         <div class="col-sm-8 col-md-7 py-4">
                             <h4 class="text-white">About</h4>
@@ -81,7 +81,7 @@
             </div>
 
             <div class="navbar navbar-dark bg-dark shadow-sm">
-                <div class="container d-flex justify-content-between">
+                <div class="container-fluid d-flex justify-content-between">
                     <a href="#" class="navbar-brand d-flex align-items-center">
                         <img src="https://pterodactyl.io/pterodactyl-flat.png" alt="Pterodactyl.io" width="40" height="40" class="img-fluid mr-2">
                         <strong>Pterodactyl Themes</strong>
@@ -95,7 +95,7 @@
                 
         <main role="main">
             <section v-if="Object.keys(this.themes).length > 0 && featured.id != null" class="jumbotron text-center">
-                <div class="container">
+                <div class="container-fluid">
                     <h1 v-if="featured.theme != undefined" class="jumbotron-heading">{{ featured.theme.name }}</h1>
                     <p class="lead text-muted">{{ featured.comment }}</p>
                     <p>
@@ -106,20 +106,20 @@
             </section>
             
             <div class="album py-5 bg-light">
-                <div class="container">
+                <div class="container-fluid">
                     <div class="row">
-                        <div v-for="(theme, key) in themes" class="col-md-4">
-                            <div class="card mb-4 shadow-sm" :id="key">
+                        <div v-for="(theme, key) in themes" class="col-md-4  mb-4">
+                            <div class="card h-100 shadow-sm" :id="key">
                                 <img :src="theme.image" class="card-img-top">
                                 <div class="card-body">
                                     <p class="card-text">
                                         <h3 class="jumbotron-heading">{{ theme.name }} <small class="text-muted">By {{ theme.author }}</small></h3>
                                         {{ theme.description }}
                                     </p>
-                                    <div class="d-flex justify-content-between align-items-center">
-                                        <div class="btn-group">
-                                            <a :href="theme.link" target="_blank" rel="nofollow" class="btn btn-sm btn-outline-secondary">View Theme</a>
-                                        </div>
+                                </div>
+                                <div class="d-flex ml-3 mb-3 justify-content-between align-items-center">
+                                    <div class="btn-group">
+                                        <a :href="theme.link" target="_blank" rel="nofollow" class="btn btn-sm btn-outline-secondary">View Theme</a>
                                     </div>
                                 </div>
                             </div>
@@ -130,7 +130,7 @@
         </main>
                 
         <footer class="text-muted">
-            <div class="container">
+            <div class="container-fluid">
                 <p class="float-right">
                     <a href="#">Back to top</a>
                 </p>
