@@ -1,0 +1,28 @@
+{
+    "thefonix-red-ape": {
+        "name": "Red Ape",
+        "author": "TheFonix",
+        "description": "A Red'er Way Of Life",
+        "link": "https://github.com/TheFonix/Pterodactyl-Themes/tree/master/MasterThemes/RedApe",
+        "image": "https://raw.githubusercontent.com/TheFonix/Pterodactyl-Themes/master/MasterThemes/RedApe/ss/Red_Ape.png",
+        "panel-versions": ["0.7.13"]
+    },
+
+    "thefonix-tango-twist": {
+        "name": "Tango Twist",
+        "author": "TheFonix",
+        "description": "A Touch Of Orange",
+        "link": "https://github.com/TheFonix/Pterodactyl-Themes/tree/master/MasterThemes/TangoTwist",
+        "image": "https://raw.githubusercontent.com/TheFonix/Pterodactyl-Themes/master/MasterThemes/TangoTwist/ss/TangoTwist.png",
+        "panel-versions": ["0.7.13"]
+    },
+
+    "thefonix-blackend-space": {
+        "name": "BlackEnd Space",
+        "author": "TheFonix",
+        "description": "The Black And The End Of Space For CodersLight Hosting ",
+        "link": "https://github.com/TheFonix/Pterodactyl-Themes/tree/master/MasterThemes/BlackEndSpace",
+        "image": "https://raw.githubusercontent.com/TheFonix/Pterodactyl-Themes/master/MasterThemes/BlackEndSpace/SS/BlackendSpace.png",
+        "panel-versions": ["0.7.13"]
+    }
+}

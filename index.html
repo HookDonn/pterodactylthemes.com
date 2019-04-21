@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <title>Pterodactyl Themes</title>
+
+    <link rel="icon" type="image/png" href="https://pterodactyl.io/favicons/favicon-32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="https://pterodactyl.io/favicons/favicon-16x16.png" sizes="16x16">
+    <link rel="shortcut icon" href="https://pterodactyl.io/favicons/favicon.ico">
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <style>
+        .bd-placeholder-img {
+            font-size: 1.125rem;
+            text-anchor: middle;
+            -webkit-user-select: none;
+            -moz-user-select: none;
+            -ms-user-select: none;
+            user-select: none;
+        }
+
+        @media (min-width: 768px) {
+            .bd-placeholder-img-lg {
+            font-size: 3.5rem;
+            }
+        }
+
+        .jumbotron {
+            padding-top: 3rem;
+            padding-bottom: 3rem;
+            margin-bottom: 0;
+            background-color: #fff;
+        }
+        @media (min-width: 768px) {
+            .jumbotron {
+                padding-top: 6rem;
+                padding-bottom: 6rem;
+            }
+        }
+
+        .jumbotron p:last-child {
+            margin-bottom: 0;
+        }
+
+        .jumbotron-heading {
+            font-weight: 300;
+        }
+
+        .jumbotron .container {
+            max-width: 40rem;
+        }
+
+        footer {
+            padding-top: 3rem;
+            padding-bottom: 3rem;
+        }
+
+        footer p {
+            margin-bottom: .25rem;
+        }
+    </style>
+</head>
+<body>
+    <div id="app">
+        <header>
+            <div class="collapse bg-dark" id="navbarHeader">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-8 col-md-7 py-4">
+                            <h4 class="text-white">About</h4>
+                            <p class="text-muted">
+                                Pterodactyl Themes is a collection of community made themes collected and displayed in a central location for all to use.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="navbar navbar-dark bg-dark shadow-sm">
+                <div class="container d-flex justify-content-between">
+                    <a href="#" class="navbar-brand d-flex align-items-center">
+                        <img src="https://pterodactyl.io/pterodactyl-flat.png" alt="Pterodactyl.io" width="40" height="40" class="img-fluid mr-2">
+                        <strong>Pterodactyl Themes</strong>
+                    </a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarHeader" aria-controls="navbarHeader" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                </div>
+            </div>
+        </header>
+                
+        <main role="main">
+            <section v-if="Object.keys(this.themes).length > 0 && featured.id != null" class="jumbotron text-center">
+                <div class="container">
+                    <h1 v-if="featured.theme != undefined" class="jumbotron-heading">{{ featured.theme.name }}</h1>
+                    <p class="lead text-muted">{{ featured.comment }}</p>
+                    <p>
+                        <a :href="'#' + featured.id" class="btn btn-primary my-2">View Theme</a>
+                        <a v-if="featured.link != null" :href="featured.link" class="btn btn-secondary my-2">{{ featured.linkText }}</a>
+                    </p>
+                </div>
+            </section>
+            
+            <div class="album py-5 bg-light">
+                <div class="container">
+                    <div class="row">
+                        <div v-for="(theme, key) in themes" class="col-md-4">
+                            <div class="card mb-4 shadow-sm" :id="key">
+                                <img :src="theme.image" class="card-img-top">
+                                <div class="card-body">
+                                    <p class="card-text">
+                                        <h3 class="jumbotron-heading">{{ theme.name }} <small class="text-muted">By {{ theme.author }}</small></h3>
+                                        {{ theme.description }}
+                                    </p>
+                                    <div class="d-flex justify-content-between align-items-center">
+                                        <div class="btn-group">
+                                            <a :href="theme.link" target="_blank" rel="nofollow" class="btn btn-sm btn-outline-secondary">View Theme</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+                
+        <footer class="text-muted">
+            <div class="container">
+                <p class="float-right">
+                    <a href="#">Back to top</a>
+                </p>
+                <p>&copy; {{ new Date().getFullYear() }} Halfpetal LLC</p>
+                <p>
+                    All themes and theme assets belong to their respective owners. <br> Pterodactyl Themes does not claim ownership of themes or theme assets.
+                </p>
+            </div>
+        </footer>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/lodash@4.17.11/lodash.min.js" integrity="sha256-7/yoZS3548fXSRXqc/xYzjsmuW3sFKzuvOCHd06Pmps=" crossorigin="anonymous"></script>
+    <script src="assets/js/app.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</body>
+</html>
