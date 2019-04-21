@@ -91,10 +91,20 @@
     "donut-dark-pterodactyl-theme": {
         "name": "Dark Pterodactyl Theme",
         "author": "Donut",
-        "description": "This is a theme for the pterodactyl panel, it works on the latest version ",
+        "description": "This is a theme for the pterodactyl panel, it works on the latest version",
         "link": "https://www.mc-market.org/resources/8394/",
         "image": "https://i.imgur.com/EXesN1K.jpg",
         "panel-versions": ["0.7.13"],
         "price": "5.30 GBP"
+    },
+    
+    "havila-byte-dark-and-light-theme-included": {
+        "name": "Byte Dark & Light Theme Included",
+        "author": "Havila",
+        "description": "The resource adds a theme switcher to your pterodactyl panel and a dark theme for people who don't know how to add an extra theme.",
+        "link": "https://www.mc-market.org/resources/9762/",
+        "image": "https://i.imgur.com/IBNcA61.png",
+        "panel-versions": ["0.7.13"],
+        "price": "8.00 GBP"
     }
 }
