@@ -88,6 +88,16 @@
         "price": "10.00 GBP"
     },
     
+    "havila-byte-dark-and-light-theme-included": {
+        "name": "Byte Dark & Light Theme Included",
+        "author": "Havila",
+        "description": "The resource adds a theme switcher to your pterodactyl panel and a dark theme for people who don't know how to add an extra theme.",
+        "link": "https://www.mc-market.org/resources/9762/",
+        "image": "https://i.imgur.com/IBNcA61.png",
+        "panel-versions": ["0.7.13"],
+        "price": "8.00 GBP"
+    },
+    
     "donut-dark-pterodactyl-theme": {
         "name": "Dark Pterodactyl Theme",
         "author": "Donut",
@@ -98,13 +108,12 @@
         "price": "5.30 GBP"
     },
     
-    "havila-byte-dark-and-light-theme-included": {
-        "name": "Byte Dark & Light Theme Included",
-        "author": "Havila",
-        "description": "The resource adds a theme switcher to your pterodactyl panel and a dark theme for people who don't know how to add an extra theme.",
-        "link": "https://www.mc-market.org/resources/9762/",
-        "image": "https://i.imgur.com/IBNcA61.png",
-        "panel-versions": ["0.7.13"],
-        "price": "8.00 GBP"
+    "lunaversity-discord-theme": {
+        "name": "Discord Theme",
+        "author": "Lunaversity",
+        "description": "Discord Theme.
+        "link": "https://github.com/Lunaversitay/pterodactyl-skins/tree/master/discord-theme",
+        "image": "https://camo.githubusercontent.com/5f0a70c2f623be430572cd860730cd2d196c9838/68747470733a2f2f692e6176617364656d6f6e2e726f636b732f66697265666f785f323031382d30362d30385f32322d31372d33372e706e67",
+        "panel-versions": ["0.6.0"]
     }
 }
