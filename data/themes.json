@@ -76,5 +76,25 @@
         "link": "https://github.com/TheFonix/Pterodactyl-Themes/tree/master/MasterThemes/NothingButGraphite",
         "image": "https://raw.githubusercontent.com/TheFonix/Pterodactyl-Themes/master/MasterThemes/NothingButGraphite/SS/NothingButGraphite.png",
         "panel-versions": ["0.7.13"]
+    },
+    
+    "havila-stream-ui": {
+        "name": "Stream Ui",
+        "author": "Havila",
+        "description": "Stream Ui",
+        "link": "https://www.mc-market.org/resources/9768/",
+        "image": "https://i.imgur.com/LZGO9mY.png",
+        "panel-versions": ["0.7.13"],
+        "price": "10.00 GBP"
+    },
+    
+    "donut-dark-pterodactyl-theme": {
+        "name": "Dark Pterodactyl Theme",
+        "author": "Donut",
+        "description": "This is a theme for the pterodactyl panel, it works on the latest version ",
+        "link": "https://www.mc-market.org/resources/8394/",
+        "image": "https://i.imgur.com/EXesN1K.jpg",
+        "panel-versions": ["0.7.13"],
+        "price": "5.30 GBP"
     }
 }
