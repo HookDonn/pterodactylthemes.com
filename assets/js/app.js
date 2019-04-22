@@ -1,5 +1,6 @@
 Vue.use(VueRouter);
 Vue.use(VueMarkdown);
+Vue.component('vue-multiselect', window.VueMultiselect.default)
 
 var Home = { template: `
 <div>
@@ -14,10 +15,19 @@ var Home = { template: `
         </div>
     </section>
 
+    <div class="container-fluid my-3">
+        <div class="row">
+            <div class="col-4 col-offset-1">
+                <div class="mb-2">Select Pterodactyl Version(s)</div>
+                <vue-multiselect v-model="$parent.filterVersionsValue" :options="$parent.filterVersionsOptions" :multiple="true" :close-on-select="false" :clear-on-select="false"  placeholder="Pick your versions" label="name" track-by="name"></vue-multiselect>
+            </div>
+        </div>
+    </div>
+
     <div class="album py-5 bg-light">
         <div class="container-fluid">
             <div class="row">
-                <div v-for="(theme, key) in $parent.themes" class="col-md-4  mb-4">
+                <div v-for="(theme, key) in $parent.filteredThemes" class="col-md-4  mb-4">
                     <div class="card h-100 shadow-sm" :id="key">
                         <img :src="theme.image" class="card-img-top">
                         <div class="card-body">
@@ -93,11 +103,39 @@ var app = new Vue({
     data: {
         featured: {},
         themes: {},
+        filteredThemes: {},
+        filterVersionsValue: [],
+        filterVersionsOptions: [
+            { name: "0.7.13" },
+            { name: "0.7.*" },
+            { name: "0.6.*" },
+        ],
+    },
+
+    watch: {
+        filterVersionsValue: function(values) {
+            let newFilteredThemes = {};
+
+            Object.keys(this.themes).forEach((key) => {
+                let theme = this.themes[key];
+
+                theme['panel-versions'].forEach(function(version) {
+                    values.forEach(function (compVersion) {
+                        if (window.compareVersions(compVersion.name, version) > -1) {
+                            newFilteredThemes[key] = theme;
+                        }
+                    })
+                });
+            });
+
+            this.filteredThemes = this.sortObj(newFilteredThemes, 'asc');
+        }
     },
 
     mounted() {
         axios.get('data/themes.json').then(r => {
-            this.themes = r.data;
+            this.themes = this.sortObj(r.data, 'asc');
+            this.filteredThemes = this.themes;
 
             return axios.get('data/featured.json');
         }).then(r => {
@@ -105,4 +143,41 @@ var app = new Vue({
             this.featured.theme = this.themes[this.featured.id];
         });
     },
+
+    methods: {
+        sortObj( obj, order ) {
+            let tempArry = [];
+            let tempObj = {};
+        
+            for (let key in obj) {
+                tempArry.push(key);
+            }
+        
+            tempArry.sort(
+                function(a, b) {
+                    return obj[a].name.toLowerCase().localeCompare(obj[b].name.toLowerCase());
+                }
+            );
+        
+            if(order === 'desc') {
+                for (let i = tempArry.length - 1; i >= 0; i-- ) {
+                    tempObj[ tempArry[i] ] = obj[ tempArry[i] ];
+                }
+            } else {
+                for (let i = 0; i < tempArry.length; i++ ) {
+                    tempObj[ tempArry[i] ] = obj[ tempArry[i] ];
+                }
+            }
+        
+            return tempObj;
+        },
+
+        sortObjKeysAlphabetically(obj) {
+            var ordered = {};
+            Object.keys(obj).sort().forEach(function(key) {
+                ordered[key] = obj[key];
+            });
+            return ordered;
+        },
+    }
 })
