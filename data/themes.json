@@ -20,8 +20,7 @@
                     }
                 }
             ],
-            "content": "# How to install?\n1. Go in your Pterodactyl root folder with SSH\n2. Run the following command : `curl https://raw.githubusercontent.com/TheFonix/Pterodactyl-Themes/master/MasterThemes/TangoTwist/build.sh | sh
-`"
+            "content": "# How to install?\n1. Go in your Pterodactyl root folder with SSH\n2. Run the following command : `curl https://raw.githubusercontent.com/TheFonix/Pterodactyl-Themes/master/MasterThemes/TangoTwist/build.sh | sh`"
         }
     },
     
@@ -46,8 +45,7 @@
                     }
                 }
             ],
-            "content": "# How to install?\n1. Go in your Pterodactyl root folder with SSH\n2. Run the following command : `curl https://raw.githubusercontent.com/TheFonix/Pterodactyl-Themes/master/MasterThemes/BlueBrick/build.sh | sh
-`"
+            "content": "# How to install?\n1. Go in your Pterodactyl root folder with SSH\n2. Run the following command : `curl https://raw.githubusercontent.com/TheFonix/Pterodactyl-Themes/master/MasterThemes/BlueBrick/build.sh | sh`"
         }
     },
     
@@ -62,7 +60,7 @@
             "use": true,
             "carousel": [
                 {
-                    "image": "https://raw.githubusercontent.com/TheFonix/Pterodactyl-Themes/master/MasterThemes/MinecraftMadness/ss/MinecraftMadness.pngg",
+                    "image": "https://raw.githubusercontent.com/TheFonix/Pterodactyl-Themes/master/MasterThemes/MinecraftMadness/ss/MinecraftMadness.png",
                     "alignText": "left",
                     "title": "Minecraft Madness",
                     "text": "Everybody Loves A Little Minecraft",
