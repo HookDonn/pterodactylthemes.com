@@ -19,7 +19,7 @@ var Home = { template: `
         <div class="row">
             <div class="col-4 col-offset-1">
                 <div class="mb-2">Select Pterodactyl Version(s)</div>
-                <vue-multiselect v-model="$parent.filterVersionsValue" :options="$parent.filterVersionsOptions" :multiple="true" :close-on-select="false" :clear-on-select="false"  placeholder="Pick your versions" label="name" track-by="name"></vue-multiselect>
+                <vue-multiselect v-model="$parent.filterVersionsValue" :options="$parent.filterVersionsOptions" :multiple="true" :close-on-select="true" :clear-on-select="false"  placeholder="Pick your versions" label="name" track-by="name"></vue-multiselect>
             </div>
         </div>
     </div>
@@ -38,11 +38,19 @@ var Home = { template: `
                                 </p>
                             </p>
                         </div>
-                        <div class="d-flex ml-3 mb-3 justify-content-between align-items-center">
+                        <div class="d-flex ml-3 mb-2 justify-content-between align-items-center">
                             <div class="btn-group">
                                 <router-link v-if="theme.page != undefined && theme.page.use" :to="'/theme/' + key" class="btn btn-sm btn-outline-primary rounded-0 mr-3">View Details</router-link>
                                 <a :href="theme.link" target="_blank" rel="nofollow" class="btn btn-sm btn-outline-secondary rounded-0">Website</a>
                             </div>
+                        </div>
+                        <div class="ml-3 mb-3 text-muted">
+                            Panel Versions<br/>
+                            <span v-for="(version, index) in theme['panel-versions']" :key="version">
+                                <span v-if="(version.match(/./g) || []).length >= 2"><a :href="'https://github.com/pterodactyl/panel/releases/tag/v' + version" target="_blank" rel="nofollow">v{{ version }}</a></span>
+                                <span v-else>v{{ version }}</span>
+                                <span v-if="index != (theme['panel-versions'].length - 1)">,</span>
+                            </span>
                         </div>
                     </div>
                 </div>
