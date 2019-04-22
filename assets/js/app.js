@@ -32,7 +32,7 @@ var Home = { template: `
                         <img :src="theme.image" class="card-img-top">
                         <div class="card-body">
                             <p class="card-text">
-                                <h3 class="jumbotron-heading">{{ theme.name }} <small class="text-muted">By {{ theme.author }}</small></h3>
+                                <h3 class="jumbotron-heading">{{ theme.name }} <small class="text-muted">By {{ theme.author }} <span :class="'badge badge-' + (theme.price != undefined || theme.price > 0 ? 'primary' : 'success')">{{ (theme.price != undefined || theme.price > 0 ? theme.price : 'Free') }}</span></small></h3>
                                 <p>
                                     {{ theme.description }}
                                 </p>
