@@ -275,5 +275,31 @@
             ],
             "content": "# Header\n##### Sub Header"
         }
+    },
+    
+    "pterodactyl-theme-pure-ui": {
+        "name": "Pure UI",
+        "author": "HookDonn_",
+        "description": "Customizable Pterodactyl Theme Pure UI.",
+        "link": "https://revenact.io/resources/pterodactyl-theme-pure-ui-customizable-theme.63/",
+        "image": "https://revenact.io/attachments/chrome_2019-06-16_18-37-03-png.348/",
+        "panel-versions": ["0.7.13"],
+        "price": "$7.50",
+        "page": {
+            "use": false,
+            "carousel": [
+                {
+                    "image": "https://raw.githubusercontent.com/TheFonix/Pterodactyl-Themes/master/MasterThemes/TangoTwist/ss/TangoTwist.png",
+                    "alignText": "left",
+                    "title": "Panel",
+                    "text": "",
+                    "link": {
+                        "url": "https://github.com/TheFonix/Pterodactyl-Themes/tree/master/MasterThemes/TangoTwist",
+                        "text": "Learn More"
+                    }
+                }
+            ],
+            "content": "# Header\n##### Sub Header"
+        }
     }
 }
